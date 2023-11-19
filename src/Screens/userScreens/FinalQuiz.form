@@ -423,6 +423,10 @@
                                       <Component id="q_15_4" alignment="0" min="-2" pref="175" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="402" max="-2" attributes="0"/>
+                                  <Component id="submit_b" min="-2" pref="87" max="-2" attributes="0"/>
+                              </Group>
                           </Group>
                           <EmptySpace pref="300" max="32767" attributes="0"/>
                       </Group>
@@ -562,7 +566,9 @@
                           <Component id="q_21_3" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Component id="q_21_4" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace pref="659" max="32767" attributes="0"/>
+                          <EmptySpace pref="73" max="32767" attributes="0"/>
+                          <Component id="submit_b" min="-2" pref="32" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -881,6 +887,14 @@
                   </Properties>
                   <Events>
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="submit_b">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Submit"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="submit_bActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>

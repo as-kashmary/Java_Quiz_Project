@@ -129,6 +129,7 @@ public class FinalQuiz extends javax.swing.JFrame {
         q_17_4 = new javax.swing.JCheckBox();
         jLabel1 = new javax.swing.JLabel();
         jButton3 = new javax.swing.JButton();
+        submit_b = new javax.swing.JButton();
 
         jPanel4.setBackground(new java.awt.Color(255, 255, 204));
         jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -369,6 +370,13 @@ public class FinalQuiz extends javax.swing.JFrame {
             }
         });
 
+        submit_b.setText("Submit");
+        submit_b.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                submit_bActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
         jPanel5Layout.setHorizontalGroup(
@@ -445,7 +453,10 @@ public class FinalQuiz extends javax.swing.JFrame {
                             .addComponent(q_15_1, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(q_15_2, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(q_15_3, javax.swing.GroupLayout.PREFERRED_SIZE, 198, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(q_15_4, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(q_15_4, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(jPanel5Layout.createSequentialGroup()
+                        .addGap(402, 402, 402)
+                        .addComponent(submit_b, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(300, Short.MAX_VALUE))
         );
         jPanel5Layout.setVerticalGroup(
@@ -579,7 +590,9 @@ public class FinalQuiz extends javax.swing.JFrame {
                 .addComponent(q_21_3)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(q_21_4)
-                .addContainerGap(659, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 73, Short.MAX_VALUE)
+                .addComponent(submit_b, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(59, 59, 59))
         );
 
         jScrollPane2.setViewportView(jPanel5);
@@ -634,6 +647,10 @@ public class FinalQuiz extends javax.swing.JFrame {
        
        
     }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void submit_bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_submit_bActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_submit_bActionPerformed
 
     /**
      * @param args the command line arguments
@@ -761,5 +778,6 @@ public class FinalQuiz extends javax.swing.JFrame {
     private javax.swing.JCheckBox q_2_o_9;
     private javax.swing.JLabel q_3;
     private javax.swing.JLabel q_4;
+    private javax.swing.JButton submit_b;
     // End of variables declaration//GEN-END:variables
 }
