@@ -403,7 +403,7 @@
                               <Component id="jCheckBox2" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
                               <Component id="jCheckBox3" alignment="0" min="-2" pref="198" max="-2" attributes="0"/>
                               <Component id="jCheckBox4" alignment="0" min="-2" pref="175" max="-2" attributes="0"/>
-                              <Component id="jLabel1" alignment="0" min="-2" pref="767" max="-2" attributes="0"/>
+                              <Component id="q_10" alignment="0" min="-2" pref="767" max="-2" attributes="0"/>
                               <Component id="jCheckBox21" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
                               <Component id="jCheckBox22" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
                               <Component id="jCheckBox23" alignment="0" min="-2" pref="198" max="-2" attributes="0"/>
@@ -417,7 +417,7 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
-                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          <Component id="q_10" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Component id="jCheckBox1" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
@@ -542,7 +542,7 @@
                 </DimensionLayout>
               </Layout>
               <SubComponents>
-                <Component class="javax.swing.JLabel" name="jLabel1">
+                <Component class="javax.swing.JLabel" name="q_10">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="jLabel1"/>
                   </Properties>
