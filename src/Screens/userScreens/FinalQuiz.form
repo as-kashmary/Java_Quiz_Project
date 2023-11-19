@@ -345,150 +345,176 @@
               <Layout>
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                      <Group type="102" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="q_21_1" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
-                              <Component id="q_21_2" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                              <Component id="q_21_3" alignment="0" min="-2" pref="198" max="-2" attributes="0"/>
-                              <Component id="q_21_4" alignment="0" min="-2" pref="175" max="-2" attributes="0"/>
-                              <Component id="q_21" alignment="0" min="-2" pref="767" max="-2" attributes="0"/>
-                              <Component id="q_20_1" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
-                              <Component id="q_20_2" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                              <Component id="q_20_3" alignment="0" min="-2" pref="198" max="-2" attributes="0"/>
-                              <Component id="q_20_4" alignment="0" min="-2" pref="175" max="-2" attributes="0"/>
-                              <Component id="q_20" alignment="0" min="-2" pref="767" max="-2" attributes="0"/>
-                              <Component id="q_19_1" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
-                              <Component id="q_19_2" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                              <Component id="q_19_3" alignment="0" min="-2" pref="198" max="-2" attributes="0"/>
-                              <Component id="q_19_4" alignment="0" min="-2" pref="175" max="-2" attributes="0"/>
-                              <Component id="q_19" alignment="0" min="-2" pref="767" max="-2" attributes="0"/>
-                              <Component id="q_18_1" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
-                              <Component id="q_18_2" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                              <Component id="q_18_3" alignment="0" min="-2" pref="198" max="-2" attributes="0"/>
-                              <Component id="q_18_4" alignment="0" min="-2" pref="175" max="-2" attributes="0"/>
-                              <Component id="q_18" alignment="0" min="-2" pref="767" max="-2" attributes="0"/>
-                              <Component id="q_17_1" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
-                              <Component id="q_17_2" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                              <Component id="q_17_3" alignment="0" min="-2" pref="198" max="-2" attributes="0"/>
-                              <Component id="q_17_4" alignment="0" min="-2" pref="175" max="-2" attributes="0"/>
-                              <Component id="q_17" alignment="0" min="-2" pref="767" max="-2" attributes="0"/>
-                              <Component id="q_16_1" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
-                              <Component id="q_16_2" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                              <Component id="q_16_3" alignment="0" min="-2" pref="198" max="-2" attributes="0"/>
-                              <Component id="q_16_4" alignment="0" min="-2" pref="175" max="-2" attributes="0"/>
-                              <Component id="q_16" alignment="0" min="-2" pref="767" max="-2" attributes="0"/>
-                              <Component id="q_15" alignment="0" min="-2" pref="767" max="-2" attributes="0"/>
-                              <Component id="q_14_1" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
-                              <Component id="q_14_2" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                              <Component id="q_14_3" alignment="0" min="-2" pref="198" max="-2" attributes="0"/>
-                              <Component id="q_14_4" alignment="0" min="-2" pref="175" max="-2" attributes="0"/>
-                              <Component id="q_14" alignment="0" min="-2" pref="767" max="-2" attributes="0"/>
-                              <Component id="q_13_1" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
-                              <Component id="q_13_2" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                              <Component id="q_13_3" alignment="0" min="-2" pref="198" max="-2" attributes="0"/>
-                              <Component id="q_13_4" alignment="0" min="-2" pref="175" max="-2" attributes="0"/>
-                              <Component id="q_13" alignment="0" min="-2" pref="767" max="-2" attributes="0"/>
-                              <Component id="q_12_1" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
-                              <Component id="q_12_2" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                              <Component id="q_12_3" alignment="0" min="-2" pref="198" max="-2" attributes="0"/>
-                              <Component id="q_12_4" alignment="0" min="-2" pref="175" max="-2" attributes="0"/>
-                              <Component id="q_12" alignment="0" min="-2" pref="767" max="-2" attributes="0"/>
-                              <Component id="q_11_1" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
-                              <Component id="q_11_2" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                              <Component id="q_11_3" alignment="0" min="-2" pref="198" max="-2" attributes="0"/>
-                              <Component id="q_11_4" alignment="0" min="-2" pref="175" max="-2" attributes="0"/>
-                              <Component id="q_11" alignment="0" min="-2" pref="767" max="-2" attributes="0"/>
-                              <Component id="q_10_1" min="-2" pref="130" max="-2" attributes="0"/>
-                              <Component id="q_10_2" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                              <Component id="q_10_3" alignment="0" min="-2" pref="198" max="-2" attributes="0"/>
-                              <Component id="q_10_4" alignment="0" min="-2" pref="175" max="-2" attributes="0"/>
-                              <Component id="q_15_1" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
-                              <Component id="q_15_2" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
-                              <Component id="q_15_3" alignment="0" min="-2" pref="198" max="-2" attributes="0"/>
-                              <Component id="q_15_4" alignment="0" min="-2" pref="175" max="-2" attributes="0"/>
-                              <Component id="q_10" alignment="0" min="-2" pref="644" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="97" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="q_21_1" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
+                                      <Component id="q_21_2" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                      <Component id="q_21_3" alignment="0" min="-2" pref="198" max="-2" attributes="0"/>
+                                      <Component id="q_21_4" alignment="0" min="-2" pref="175" max="-2" attributes="0"/>
+                                      <Component id="q_21" alignment="0" min="-2" pref="767" max="-2" attributes="0"/>
+                                      <Component id="q_20_1" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
+                                      <Component id="q_20_2" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                      <Component id="q_20_3" alignment="0" min="-2" pref="198" max="-2" attributes="0"/>
+                                      <Component id="q_20_4" alignment="0" min="-2" pref="175" max="-2" attributes="0"/>
+                                      <Component id="q_20" alignment="0" min="-2" pref="767" max="-2" attributes="0"/>
+                                      <Component id="q_19_1" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
+                                      <Component id="q_19_2" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                      <Component id="q_19_3" alignment="0" min="-2" pref="198" max="-2" attributes="0"/>
+                                      <Component id="q_19_4" alignment="0" min="-2" pref="175" max="-2" attributes="0"/>
+                                      <Component id="q_19" alignment="0" min="-2" pref="767" max="-2" attributes="0"/>
+                                      <Component id="q_18_1" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
+                                      <Component id="q_18_2" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                      <Component id="q_18_3" alignment="0" min="-2" pref="198" max="-2" attributes="0"/>
+                                      <Component id="q_18_4" alignment="0" min="-2" pref="175" max="-2" attributes="0"/>
+                                      <Component id="q_18" alignment="0" min="-2" pref="767" max="-2" attributes="0"/>
+                                      <Component id="q_17_1" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
+                                      <Component id="q_17_2" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                      <Component id="q_17_3" alignment="0" min="-2" pref="198" max="-2" attributes="0"/>
+                                      <Component id="q_17_4" alignment="0" min="-2" pref="175" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                  <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="416" max="-2" attributes="0"/>
+                                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="101" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="q_13_1" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
+                                      <Component id="q_13_2" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                      <Component id="q_13_3" alignment="0" min="-2" pref="198" max="-2" attributes="0"/>
+                                      <Component id="q_13" alignment="0" min="-2" pref="767" max="-2" attributes="0"/>
+                                      <Component id="q_12_1" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
+                                      <Component id="q_12_2" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                      <Component id="q_12_3" alignment="0" min="-2" pref="198" max="-2" attributes="0"/>
+                                      <Component id="q_12_4" alignment="0" min="-2" pref="175" max="-2" attributes="0"/>
+                                      <Component id="q_12" alignment="0" min="-2" pref="767" max="-2" attributes="0"/>
+                                      <Component id="q_11_1" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
+                                      <Component id="q_11_2" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                      <Component id="q_11_3" alignment="0" min="-2" pref="198" max="-2" attributes="0"/>
+                                      <Component id="q_11_4" alignment="0" min="-2" pref="175" max="-2" attributes="0"/>
+                                      <Component id="q_11" alignment="0" min="-2" pref="767" max="-2" attributes="0"/>
+                                      <Component id="q_10_1" min="-2" pref="130" max="-2" attributes="0"/>
+                                      <Component id="q_10_2" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                      <Component id="q_10_3" alignment="0" min="-2" pref="198" max="-2" attributes="0"/>
+                                      <Component id="q_10_4" alignment="0" min="-2" pref="175" max="-2" attributes="0"/>
+                                      <Component id="q_10" alignment="0" min="-2" pref="644" max="-2" attributes="0"/>
+                                      <Component id="q_17" alignment="0" min="-2" pref="767" max="-2" attributes="0"/>
+                                      <Component id="q_16_1" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
+                                      <Component id="q_16_2" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                      <Component id="q_16_3" alignment="0" min="-2" pref="198" max="-2" attributes="0"/>
+                                      <Component id="q_16_4" alignment="0" min="-2" pref="175" max="-2" attributes="0"/>
+                                      <Component id="q_16" alignment="0" min="-2" pref="767" max="-2" attributes="0"/>
+                                      <Component id="q_15" alignment="0" min="-2" pref="767" max="-2" attributes="0"/>
+                                      <Component id="q_14_1" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
+                                      <Component id="q_14_2" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                      <Component id="q_14_3" alignment="0" min="-2" pref="198" max="-2" attributes="0"/>
+                                      <Component id="q_14_4" alignment="0" min="-2" pref="175" max="-2" attributes="0"/>
+                                      <Component id="q_14" alignment="0" min="-2" pref="767" max="-2" attributes="0"/>
+                                      <Component id="q_13_4" alignment="0" min="-2" pref="175" max="-2" attributes="0"/>
+                                      <Component id="q_15_1" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
+                                      <Component id="q_15_2" alignment="0" min="-2" pref="183" max="-2" attributes="0"/>
+                                      <Component id="q_15_3" alignment="0" min="-2" pref="198" max="-2" attributes="0"/>
+                                      <Component id="q_15_4" alignment="0" min="-2" pref="175" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
                           </Group>
-                          <EmptySpace pref="405" max="32767" attributes="0"/>
+                          <EmptySpace pref="300" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
                 <DimensionLayout dim="1">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
-                          <Component id="q_10" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="q_10_1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="q_10_2" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="q_10_3" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="q_10_4" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
-                          <Component id="q_11" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="q_11_1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="q_11_2" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="q_11_3" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="q_11_4" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="q_12" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="q_12_1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="q_12_2" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="q_12_3" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="q_12_4" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
-                          <Component id="q_13" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="q_13_1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="q_13_2" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="q_13_3" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="q_13_4" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="q_14" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="q_14_1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="q_14_2" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="q_14_3" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="q_14_4" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
-                          <Component id="q_15" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="q_15_1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="q_15_2" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="q_15_3" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="q_15_4" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="q_16" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="q_16_1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="q_16_2" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="q_16_3" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="q_16_4" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
-                          <Component id="q_17" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                  <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="1245" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="q_10" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="q_10_1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="q_10_2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="q_10_3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="q_10_4" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                                  <Component id="q_11" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="q_11_1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="q_11_2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="q_11_3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="q_11_4" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="q_12" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="q_12_1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="q_12_2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="q_12_3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="q_12_4" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                                  <Component id="q_13" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="q_13_1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="q_13_2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="q_13_3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="q_13_4" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="q_14" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="q_14_1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="q_14_2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="q_14_3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="q_14_4" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                                  <Component id="q_15" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="q_15_1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="q_15_2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="q_15_3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="q_15_4" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="q_16" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="q_16_1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="q_16_2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="q_16_3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="q_16_4" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                                  <Component id="q_17" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
                           <Component id="q_17_1" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Component id="q_17_2" min="-2" max="-2" attributes="0"/>
@@ -536,7 +562,7 @@
                           <Component id="q_21_3" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Component id="q_21_4" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace pref="702" max="32767" attributes="0"/>
+                          <EmptySpace pref="659" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -841,6 +867,21 @@
                   <Properties>
                     <Property name="text" type="java.lang.String" value="jCheckBox4"/>
                   </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel1">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/iPhone 8 - 1.png"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="jButton3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Quit "/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+                  </Events>
                 </Component>
               </SubComponents>
             </Container>
