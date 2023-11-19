@@ -638,12 +638,12 @@ public class FinalQuiz extends javax.swing.JFrame {
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
-//       var response=JOptionPane.showConfirmDialog(this, "Do you want to Quit?","Confirm", JOptionPane.YES_NO_OPTION,JOptionPane.QUESTION_MESSAGE);
-//       if(response==JOptionPane.YES_OPTION){
-//           QuizSelection frmtwo=new QuizSelection();
-//        setVisible(false);
-//        frmtwo.show();
-//       }
+       var response=JOptionPane.showConfirmDialog(this, "Do you want to Quit?","Confirm", JOptionPane.YES_NO_OPTION,JOptionPane.QUESTION_MESSAGE);
+       if(response==JOptionPane.YES_OPTION){
+           QuizSelection frmtwo=new QuizSelection();
+        setVisible(false);
+        frmtwo.show();
+       }
        
        
     }//GEN-LAST:event_jButton3ActionPerformed
