@@ -80,7 +80,7 @@ public class QuizSelection extends javax.swing.JFrame {
 
         jLabel2.setText("Number of Questions:");
 
-        no_q.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "5", "10", "15", "20" }));
+        no_q.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "5", "10", "12" }));
 
         Start_Button.setText("Start");
         Start_Button.addActionListener(new java.awt.event.ActionListener() {

@@ -66,65 +66,65 @@ public class FinalQuiz extends javax.swing.JFrame {
         jScrollPane2 = new javax.swing.JScrollPane();
         jPanel5 = new javax.swing.JPanel();
         q_10 = new javax.swing.JLabel();
-        jCheckBox1 = new javax.swing.JCheckBox();
-        jCheckBox2 = new javax.swing.JCheckBox();
-        jCheckBox3 = new javax.swing.JCheckBox();
-        jCheckBox4 = new javax.swing.JCheckBox();
-        jLabel2 = new javax.swing.JLabel();
-        jCheckBox5 = new javax.swing.JCheckBox();
-        jCheckBox6 = new javax.swing.JCheckBox();
-        jCheckBox7 = new javax.swing.JCheckBox();
-        jCheckBox8 = new javax.swing.JCheckBox();
-        jLabel3 = new javax.swing.JLabel();
-        jCheckBox9 = new javax.swing.JCheckBox();
-        jCheckBox10 = new javax.swing.JCheckBox();
-        jCheckBox11 = new javax.swing.JCheckBox();
-        jCheckBox12 = new javax.swing.JCheckBox();
-        jLabel4 = new javax.swing.JLabel();
-        jCheckBox13 = new javax.swing.JCheckBox();
-        jCheckBox14 = new javax.swing.JCheckBox();
-        jCheckBox15 = new javax.swing.JCheckBox();
-        jCheckBox16 = new javax.swing.JCheckBox();
-        jLabel5 = new javax.swing.JLabel();
-        jCheckBox17 = new javax.swing.JCheckBox();
-        jCheckBox18 = new javax.swing.JCheckBox();
-        jCheckBox19 = new javax.swing.JCheckBox();
-        jCheckBox20 = new javax.swing.JCheckBox();
-        jLabel6 = new javax.swing.JLabel();
-        jCheckBox21 = new javax.swing.JCheckBox();
-        jCheckBox22 = new javax.swing.JCheckBox();
-        jCheckBox23 = new javax.swing.JCheckBox();
-        jCheckBox24 = new javax.swing.JCheckBox();
-        jLabel7 = new javax.swing.JLabel();
-        jCheckBox25 = new javax.swing.JCheckBox();
-        jCheckBox26 = new javax.swing.JCheckBox();
-        jCheckBox27 = new javax.swing.JCheckBox();
-        jCheckBox28 = new javax.swing.JCheckBox();
-        jLabel8 = new javax.swing.JLabel();
-        jCheckBox29 = new javax.swing.JCheckBox();
-        jCheckBox30 = new javax.swing.JCheckBox();
-        jCheckBox31 = new javax.swing.JCheckBox();
-        jCheckBox32 = new javax.swing.JCheckBox();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        jCheckBox33 = new javax.swing.JCheckBox();
-        jCheckBox34 = new javax.swing.JCheckBox();
-        jCheckBox35 = new javax.swing.JCheckBox();
-        jCheckBox36 = new javax.swing.JCheckBox();
-        jCheckBox37 = new javax.swing.JCheckBox();
-        jCheckBox38 = new javax.swing.JCheckBox();
-        jCheckBox39 = new javax.swing.JCheckBox();
-        jCheckBox40 = new javax.swing.JCheckBox();
-        jLabel11 = new javax.swing.JLabel();
-        jCheckBox41 = new javax.swing.JCheckBox();
-        jLabel12 = new javax.swing.JLabel();
-        jCheckBox42 = new javax.swing.JCheckBox();
-        jCheckBox43 = new javax.swing.JCheckBox();
-        jCheckBox44 = new javax.swing.JCheckBox();
-        jCheckBox45 = new javax.swing.JCheckBox();
-        jCheckBox46 = new javax.swing.JCheckBox();
-        jCheckBox47 = new javax.swing.JCheckBox();
-        jCheckBox48 = new javax.swing.JCheckBox();
+        q_10_1 = new javax.swing.JCheckBox();
+        q_10_2 = new javax.swing.JCheckBox();
+        q_10_3 = new javax.swing.JCheckBox();
+        q_10_4 = new javax.swing.JCheckBox();
+        q_11 = new javax.swing.JLabel();
+        q_11_1 = new javax.swing.JCheckBox();
+        q_11_2 = new javax.swing.JCheckBox();
+        q_11_3 = new javax.swing.JCheckBox();
+        q_11_4 = new javax.swing.JCheckBox();
+        q_12 = new javax.swing.JLabel();
+        q_12_1 = new javax.swing.JCheckBox();
+        q_12_2 = new javax.swing.JCheckBox();
+        q_12_3 = new javax.swing.JCheckBox();
+        q_12_4 = new javax.swing.JCheckBox();
+        q_13 = new javax.swing.JLabel();
+        q_13_1 = new javax.swing.JCheckBox();
+        q_13_2 = new javax.swing.JCheckBox();
+        q_13_3 = new javax.swing.JCheckBox();
+        q_13_4 = new javax.swing.JCheckBox();
+        q_14 = new javax.swing.JLabel();
+        q_14_1 = new javax.swing.JCheckBox();
+        q_14_2 = new javax.swing.JCheckBox();
+        q_14_3 = new javax.swing.JCheckBox();
+        q_14_4 = new javax.swing.JCheckBox();
+        q_15 = new javax.swing.JLabel();
+        q_15_1 = new javax.swing.JCheckBox();
+        q_15_2 = new javax.swing.JCheckBox();
+        q_15_3 = new javax.swing.JCheckBox();
+        q_15_4 = new javax.swing.JCheckBox();
+        q_18 = new javax.swing.JLabel();
+        q_18_1 = new javax.swing.JCheckBox();
+        q_18_2 = new javax.swing.JCheckBox();
+        q_18_3 = new javax.swing.JCheckBox();
+        q_18_4 = new javax.swing.JCheckBox();
+        q_19 = new javax.swing.JLabel();
+        q_19_1 = new javax.swing.JCheckBox();
+        q_19_2 = new javax.swing.JCheckBox();
+        q_19_3 = new javax.swing.JCheckBox();
+        q_19_4 = new javax.swing.JCheckBox();
+        q_20 = new javax.swing.JLabel();
+        q_16 = new javax.swing.JLabel();
+        q_20_1 = new javax.swing.JCheckBox();
+        q_16_1 = new javax.swing.JCheckBox();
+        q_20_2 = new javax.swing.JCheckBox();
+        q_16_2 = new javax.swing.JCheckBox();
+        q_20_3 = new javax.swing.JCheckBox();
+        q_20_4 = new javax.swing.JCheckBox();
+        q_16_3 = new javax.swing.JCheckBox();
+        q_16_4 = new javax.swing.JCheckBox();
+        q_17 = new javax.swing.JLabel();
+        q_17_1 = new javax.swing.JCheckBox();
+        q_21 = new javax.swing.JLabel();
+        q_21_1 = new javax.swing.JCheckBox();
+        q_21_2 = new javax.swing.JCheckBox();
+        q_21_3 = new javax.swing.JCheckBox();
+        q_17_2 = new javax.swing.JCheckBox();
+        q_21_4 = new javax.swing.JCheckBox();
+        q_17_3 = new javax.swing.JCheckBox();
+        q_17_4 = new javax.swing.JCheckBox();
 
         jPanel4.setBackground(new java.awt.Color(255, 255, 204));
         jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -238,123 +238,123 @@ public class FinalQuiz extends javax.swing.JFrame {
 
         q_10.setText("jLabel1");
 
-        jCheckBox1.setText("jCheckBox1");
+        q_10_1.setText("jCheckBox1");
 
-        jCheckBox2.setText("jCheckBox2");
+        q_10_2.setText("jCheckBox2");
 
-        jCheckBox3.setText("jCheckBox3");
+        q_10_3.setText("jCheckBox3");
 
-        jCheckBox4.setText("jCheckBox4");
+        q_10_4.setText("jCheckBox4");
 
-        jLabel2.setText("jLabel1");
+        q_11.setText("jLabel1");
 
-        jCheckBox5.setText("jCheckBox1");
+        q_11_1.setText("jCheckBox1");
 
-        jCheckBox6.setText("jCheckBox2");
+        q_11_2.setText("jCheckBox2");
 
-        jCheckBox7.setText("jCheckBox3");
+        q_11_3.setText("jCheckBox3");
 
-        jCheckBox8.setText("jCheckBox4");
+        q_11_4.setText("jCheckBox4");
 
-        jLabel3.setText("jLabel1");
+        q_12.setText("jLabel1");
 
-        jCheckBox9.setText("jCheckBox1");
+        q_12_1.setText("jCheckBox1");
 
-        jCheckBox10.setText("jCheckBox2");
+        q_12_2.setText("jCheckBox2");
 
-        jCheckBox11.setText("jCheckBox3");
+        q_12_3.setText("jCheckBox3");
 
-        jCheckBox12.setText("jCheckBox4");
+        q_12_4.setText("jCheckBox4");
 
-        jLabel4.setText("jLabel1");
+        q_13.setText("jLabel1");
 
-        jCheckBox13.setText("jCheckBox1");
+        q_13_1.setText("jCheckBox1");
 
-        jCheckBox14.setText("jCheckBox2");
+        q_13_2.setText("jCheckBox2");
 
-        jCheckBox15.setText("jCheckBox3");
+        q_13_3.setText("jCheckBox3");
 
-        jCheckBox16.setText("jCheckBox4");
+        q_13_4.setText("jCheckBox4");
 
-        jLabel5.setText("jLabel1");
+        q_14.setText("jLabel1");
 
-        jCheckBox17.setText("jCheckBox1");
+        q_14_1.setText("jCheckBox1");
 
-        jCheckBox18.setText("jCheckBox2");
+        q_14_2.setText("jCheckBox2");
 
-        jCheckBox19.setText("jCheckBox3");
+        q_14_3.setText("jCheckBox3");
 
-        jCheckBox20.setText("jCheckBox4");
+        q_14_4.setText("jCheckBox4");
 
-        jLabel6.setText("jLabel1");
+        q_15.setText("jLabel1");
 
-        jCheckBox21.setText("jCheckBox1");
+        q_15_1.setText("jCheckBox1");
 
-        jCheckBox22.setText("jCheckBox2");
+        q_15_2.setText("jCheckBox2");
 
-        jCheckBox23.setText("jCheckBox3");
+        q_15_3.setText("jCheckBox3");
 
-        jCheckBox24.setText("jCheckBox4");
+        q_15_4.setText("jCheckBox4");
 
-        jLabel7.setText("jLabel1");
+        q_18.setText("jLabel1");
 
-        jCheckBox25.setText("jCheckBox1");
+        q_18_1.setText("jCheckBox1");
 
-        jCheckBox26.setText("jCheckBox2");
+        q_18_2.setText("jCheckBox2");
 
-        jCheckBox27.setText("jCheckBox3");
+        q_18_3.setText("jCheckBox3");
 
-        jCheckBox28.setText("jCheckBox4");
+        q_18_4.setText("jCheckBox4");
 
-        jLabel8.setText("jLabel1");
+        q_19.setText("jLabel1");
 
-        jCheckBox29.setText("jCheckBox1");
+        q_19_1.setText("jCheckBox1");
 
-        jCheckBox30.setText("jCheckBox2");
+        q_19_2.setText("jCheckBox2");
 
-        jCheckBox31.setText("jCheckBox3");
+        q_19_3.setText("jCheckBox3");
 
-        jCheckBox32.setText("jCheckBox4");
+        q_19_4.setText("jCheckBox4");
 
-        jLabel9.setText("jLabel1");
+        q_20.setText("jLabel1");
 
-        jLabel10.setText("jLabel1");
+        q_16.setText("jLabel1");
 
-        jCheckBox33.setText("jCheckBox1");
+        q_20_1.setText("jCheckBox1");
 
-        jCheckBox34.setText("jCheckBox1");
+        q_16_1.setText("jCheckBox1");
 
-        jCheckBox35.setText("jCheckBox2");
+        q_20_2.setText("jCheckBox2");
 
-        jCheckBox36.setText("jCheckBox2");
+        q_16_2.setText("jCheckBox2");
 
-        jCheckBox37.setText("jCheckBox3");
+        q_20_3.setText("jCheckBox3");
 
-        jCheckBox38.setText("jCheckBox4");
+        q_20_4.setText("jCheckBox4");
 
-        jCheckBox39.setText("jCheckBox3");
+        q_16_3.setText("jCheckBox3");
 
-        jCheckBox40.setText("jCheckBox4");
+        q_16_4.setText("jCheckBox4");
 
-        jLabel11.setText("jLabel1");
+        q_17.setText("jLabel1");
 
-        jCheckBox41.setText("jCheckBox1");
+        q_17_1.setText("jCheckBox1");
 
-        jLabel12.setText("jLabel1");
+        q_21.setText("jLabel1");
 
-        jCheckBox42.setText("jCheckBox1");
+        q_21_1.setText("jCheckBox1");
 
-        jCheckBox43.setText("jCheckBox2");
+        q_21_2.setText("jCheckBox2");
 
-        jCheckBox44.setText("jCheckBox3");
+        q_21_3.setText("jCheckBox3");
 
-        jCheckBox45.setText("jCheckBox2");
+        q_17_2.setText("jCheckBox2");
 
-        jCheckBox46.setText("jCheckBox4");
+        q_21_4.setText("jCheckBox4");
 
-        jCheckBox47.setText("jCheckBox3");
+        q_17_3.setText("jCheckBox3");
 
-        jCheckBox48.setText("jCheckBox4");
+        q_17_4.setText("jCheckBox4");
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
@@ -363,66 +363,66 @@ public class FinalQuiz extends javax.swing.JFrame {
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addGap(36, 36, 36)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jCheckBox42, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox43, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox44, javax.swing.GroupLayout.PREFERRED_SIZE, 198, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox46, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 767, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox33, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox35, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox37, javax.swing.GroupLayout.PREFERRED_SIZE, 198, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox38, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 767, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox29, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox30, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox31, javax.swing.GroupLayout.PREFERRED_SIZE, 198, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox32, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 767, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox25, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox26, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox27, javax.swing.GroupLayout.PREFERRED_SIZE, 198, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox28, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 767, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox41, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox45, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox47, javax.swing.GroupLayout.PREFERRED_SIZE, 198, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox48, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 767, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox34, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox36, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox39, javax.swing.GroupLayout.PREFERRED_SIZE, 198, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox40, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 767, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 767, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox17, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox18, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox19, javax.swing.GroupLayout.PREFERRED_SIZE, 198, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox20, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 767, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox13, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox14, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox15, javax.swing.GroupLayout.PREFERRED_SIZE, 198, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox16, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 767, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox9, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox10, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox11, javax.swing.GroupLayout.PREFERRED_SIZE, 198, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox12, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 767, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox5, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox6, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox7, javax.swing.GroupLayout.PREFERRED_SIZE, 198, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox8, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 767, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox2, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox3, javax.swing.GroupLayout.PREFERRED_SIZE, 198, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox4, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(q_10, javax.swing.GroupLayout.PREFERRED_SIZE, 767, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox21, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox22, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox23, javax.swing.GroupLayout.PREFERRED_SIZE, 198, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCheckBox24, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(q_21_1, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_21_2, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_21_3, javax.swing.GroupLayout.PREFERRED_SIZE, 198, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_21_4, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_21, javax.swing.GroupLayout.PREFERRED_SIZE, 767, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_20_1, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_20_2, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_20_3, javax.swing.GroupLayout.PREFERRED_SIZE, 198, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_20_4, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_20, javax.swing.GroupLayout.PREFERRED_SIZE, 767, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_19_1, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_19_2, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_19_3, javax.swing.GroupLayout.PREFERRED_SIZE, 198, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_19_4, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_19, javax.swing.GroupLayout.PREFERRED_SIZE, 767, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_18_1, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_18_2, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_18_3, javax.swing.GroupLayout.PREFERRED_SIZE, 198, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_18_4, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_18, javax.swing.GroupLayout.PREFERRED_SIZE, 767, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_17_1, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_17_2, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_17_3, javax.swing.GroupLayout.PREFERRED_SIZE, 198, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_17_4, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_17, javax.swing.GroupLayout.PREFERRED_SIZE, 767, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_16_1, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_16_2, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_16_3, javax.swing.GroupLayout.PREFERRED_SIZE, 198, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_16_4, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_16, javax.swing.GroupLayout.PREFERRED_SIZE, 767, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_15, javax.swing.GroupLayout.PREFERRED_SIZE, 767, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_14_1, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_14_2, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_14_3, javax.swing.GroupLayout.PREFERRED_SIZE, 198, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_14_4, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_14, javax.swing.GroupLayout.PREFERRED_SIZE, 767, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_13_1, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_13_2, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_13_3, javax.swing.GroupLayout.PREFERRED_SIZE, 198, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_13_4, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_13, javax.swing.GroupLayout.PREFERRED_SIZE, 767, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_12_1, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_12_2, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_12_3, javax.swing.GroupLayout.PREFERRED_SIZE, 198, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_12_4, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_12, javax.swing.GroupLayout.PREFERRED_SIZE, 767, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_11_1, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_11_2, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_11_3, javax.swing.GroupLayout.PREFERRED_SIZE, 198, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_11_4, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_11, javax.swing.GroupLayout.PREFERRED_SIZE, 767, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_10_1, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_10_2, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_10_3, javax.swing.GroupLayout.PREFERRED_SIZE, 198, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_10_4, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_15_1, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_15_2, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_15_3, javax.swing.GroupLayout.PREFERRED_SIZE, 198, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_15_4, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(q_10, javax.swing.GroupLayout.PREFERRED_SIZE, 644, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(405, Short.MAX_VALUE))
         );
         jPanel5Layout.setVerticalGroup(
@@ -431,123 +431,123 @@ public class FinalQuiz extends javax.swing.JFrame {
                 .addGap(66, 66, 66)
                 .addComponent(q_10)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jCheckBox1)
+                .addComponent(q_10_1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jCheckBox2)
+                .addComponent(q_10_2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jCheckBox3)
+                .addComponent(q_10_3)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jCheckBox4)
+                .addComponent(q_10_4)
                 .addGap(36, 36, 36)
-                .addComponent(jLabel2)
+                .addComponent(q_11)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jCheckBox5)
+                .addComponent(q_11_1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jCheckBox6)
+                .addComponent(q_11_2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jCheckBox7)
+                .addComponent(q_11_3)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jCheckBox8)
+                .addComponent(q_11_4)
                 .addGap(18, 18, 18)
-                .addComponent(jLabel3)
+                .addComponent(q_12)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jCheckBox9)
+                .addComponent(q_12_1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jCheckBox10)
+                .addComponent(q_12_2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jCheckBox11)
+                .addComponent(q_12_3)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jCheckBox12)
+                .addComponent(q_12_4)
                 .addGap(36, 36, 36)
-                .addComponent(jLabel4)
+                .addComponent(q_13)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jCheckBox13)
+                .addComponent(q_13_1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jCheckBox14)
+                .addComponent(q_13_2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jCheckBox15)
+                .addComponent(q_13_3)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jCheckBox16)
+                .addComponent(q_13_4)
                 .addGap(18, 18, 18)
-                .addComponent(jLabel5)
+                .addComponent(q_14)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jCheckBox17)
+                .addComponent(q_14_1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jCheckBox18)
+                .addComponent(q_14_2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jCheckBox19)
+                .addComponent(q_14_3)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jCheckBox20)
+                .addComponent(q_14_4)
                 .addGap(36, 36, 36)
-                .addComponent(jLabel6)
+                .addComponent(q_15)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jCheckBox21)
+                .addComponent(q_15_1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jCheckBox22)
+                .addComponent(q_15_2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jCheckBox23)
+                .addComponent(q_15_3)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jCheckBox24)
+                .addComponent(q_15_4)
                 .addGap(18, 18, 18)
-                .addComponent(jLabel10)
+                .addComponent(q_16)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jCheckBox34)
+                .addComponent(q_16_1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jCheckBox36)
+                .addComponent(q_16_2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jCheckBox39)
+                .addComponent(q_16_3)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jCheckBox40)
+                .addComponent(q_16_4)
                 .addGap(36, 36, 36)
-                .addComponent(jLabel11)
+                .addComponent(q_17)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jCheckBox41)
+                .addComponent(q_17_1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jCheckBox45)
+                .addComponent(q_17_2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jCheckBox47)
+                .addComponent(q_17_3)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jCheckBox48)
+                .addComponent(q_17_4)
                 .addGap(18, 18, 18)
-                .addComponent(jLabel7)
+                .addComponent(q_18)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jCheckBox25)
+                .addComponent(q_18_1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jCheckBox26)
+                .addComponent(q_18_2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jCheckBox27)
+                .addComponent(q_18_3)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jCheckBox28)
+                .addComponent(q_18_4)
                 .addGap(36, 36, 36)
-                .addComponent(jLabel8)
+                .addComponent(q_19)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jCheckBox29)
+                .addComponent(q_19_1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jCheckBox30)
+                .addComponent(q_19_2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jCheckBox31)
+                .addComponent(q_19_3)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jCheckBox32)
+                .addComponent(q_19_4)
                 .addGap(18, 18, 18)
-                .addComponent(jLabel9)
+                .addComponent(q_20)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jCheckBox33)
+                .addComponent(q_20_1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jCheckBox35)
+                .addComponent(q_20_2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jCheckBox37)
+                .addComponent(q_20_3)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jCheckBox38)
+                .addComponent(q_20_4)
                 .addGap(36, 36, 36)
-                .addComponent(jLabel12)
+                .addComponent(q_21)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jCheckBox42)
+                .addComponent(q_21_1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jCheckBox43)
+                .addComponent(q_21_2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jCheckBox44)
+                .addComponent(q_21_3)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jCheckBox46)
+                .addComponent(q_21_4)
                 .addContainerGap(702, Short.MAX_VALUE))
         );
 
@@ -630,65 +630,6 @@ public class FinalQuiz extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
-    private javax.swing.JCheckBox jCheckBox1;
-    private javax.swing.JCheckBox jCheckBox10;
-    private javax.swing.JCheckBox jCheckBox11;
-    private javax.swing.JCheckBox jCheckBox12;
-    private javax.swing.JCheckBox jCheckBox13;
-    private javax.swing.JCheckBox jCheckBox14;
-    private javax.swing.JCheckBox jCheckBox15;
-    private javax.swing.JCheckBox jCheckBox16;
-    private javax.swing.JCheckBox jCheckBox17;
-    private javax.swing.JCheckBox jCheckBox18;
-    private javax.swing.JCheckBox jCheckBox19;
-    private javax.swing.JCheckBox jCheckBox2;
-    private javax.swing.JCheckBox jCheckBox20;
-    private javax.swing.JCheckBox jCheckBox21;
-    private javax.swing.JCheckBox jCheckBox22;
-    private javax.swing.JCheckBox jCheckBox23;
-    private javax.swing.JCheckBox jCheckBox24;
-    private javax.swing.JCheckBox jCheckBox25;
-    private javax.swing.JCheckBox jCheckBox26;
-    private javax.swing.JCheckBox jCheckBox27;
-    private javax.swing.JCheckBox jCheckBox28;
-    private javax.swing.JCheckBox jCheckBox29;
-    private javax.swing.JCheckBox jCheckBox3;
-    private javax.swing.JCheckBox jCheckBox30;
-    private javax.swing.JCheckBox jCheckBox31;
-    private javax.swing.JCheckBox jCheckBox32;
-    private javax.swing.JCheckBox jCheckBox33;
-    private javax.swing.JCheckBox jCheckBox34;
-    private javax.swing.JCheckBox jCheckBox35;
-    private javax.swing.JCheckBox jCheckBox36;
-    private javax.swing.JCheckBox jCheckBox37;
-    private javax.swing.JCheckBox jCheckBox38;
-    private javax.swing.JCheckBox jCheckBox39;
-    private javax.swing.JCheckBox jCheckBox4;
-    private javax.swing.JCheckBox jCheckBox40;
-    private javax.swing.JCheckBox jCheckBox41;
-    private javax.swing.JCheckBox jCheckBox42;
-    private javax.swing.JCheckBox jCheckBox43;
-    private javax.swing.JCheckBox jCheckBox44;
-    private javax.swing.JCheckBox jCheckBox45;
-    private javax.swing.JCheckBox jCheckBox46;
-    private javax.swing.JCheckBox jCheckBox47;
-    private javax.swing.JCheckBox jCheckBox48;
-    private javax.swing.JCheckBox jCheckBox5;
-    private javax.swing.JCheckBox jCheckBox6;
-    private javax.swing.JCheckBox jCheckBox7;
-    private javax.swing.JCheckBox jCheckBox8;
-    private javax.swing.JCheckBox jCheckBox9;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
@@ -697,6 +638,55 @@ public class FinalQuiz extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JLabel q_1;
     private javax.swing.JLabel q_10;
+    private javax.swing.JCheckBox q_10_1;
+    private javax.swing.JCheckBox q_10_2;
+    private javax.swing.JCheckBox q_10_3;
+    private javax.swing.JCheckBox q_10_4;
+    private javax.swing.JLabel q_11;
+    private javax.swing.JCheckBox q_11_1;
+    private javax.swing.JCheckBox q_11_2;
+    private javax.swing.JCheckBox q_11_3;
+    private javax.swing.JCheckBox q_11_4;
+    private javax.swing.JLabel q_12;
+    private javax.swing.JCheckBox q_12_1;
+    private javax.swing.JCheckBox q_12_2;
+    private javax.swing.JCheckBox q_12_3;
+    private javax.swing.JCheckBox q_12_4;
+    private javax.swing.JLabel q_13;
+    private javax.swing.JCheckBox q_13_1;
+    private javax.swing.JCheckBox q_13_2;
+    private javax.swing.JCheckBox q_13_3;
+    private javax.swing.JCheckBox q_13_4;
+    private javax.swing.JLabel q_14;
+    private javax.swing.JCheckBox q_14_1;
+    private javax.swing.JCheckBox q_14_2;
+    private javax.swing.JCheckBox q_14_3;
+    private javax.swing.JCheckBox q_14_4;
+    private javax.swing.JLabel q_15;
+    private javax.swing.JCheckBox q_15_1;
+    private javax.swing.JCheckBox q_15_2;
+    private javax.swing.JCheckBox q_15_3;
+    private javax.swing.JCheckBox q_15_4;
+    private javax.swing.JLabel q_16;
+    private javax.swing.JCheckBox q_16_1;
+    private javax.swing.JCheckBox q_16_2;
+    private javax.swing.JCheckBox q_16_3;
+    private javax.swing.JCheckBox q_16_4;
+    private javax.swing.JLabel q_17;
+    private javax.swing.JCheckBox q_17_1;
+    private javax.swing.JCheckBox q_17_2;
+    private javax.swing.JCheckBox q_17_3;
+    private javax.swing.JCheckBox q_17_4;
+    private javax.swing.JLabel q_18;
+    private javax.swing.JCheckBox q_18_1;
+    private javax.swing.JCheckBox q_18_2;
+    private javax.swing.JCheckBox q_18_3;
+    private javax.swing.JCheckBox q_18_4;
+    private javax.swing.JLabel q_19;
+    private javax.swing.JCheckBox q_19_1;
+    private javax.swing.JCheckBox q_19_2;
+    private javax.swing.JCheckBox q_19_3;
+    private javax.swing.JCheckBox q_19_4;
     private javax.swing.JCheckBox q_1_o_1;
     private javax.swing.JCheckBox q_1_o_2;
     private javax.swing.JCheckBox q_1_o_3;
@@ -706,6 +696,16 @@ public class FinalQuiz extends javax.swing.JFrame {
     private javax.swing.JCheckBox q_1_o_7;
     private javax.swing.JCheckBox q_1_o_8;
     private javax.swing.JLabel q_2;
+    private javax.swing.JLabel q_20;
+    private javax.swing.JCheckBox q_20_1;
+    private javax.swing.JCheckBox q_20_2;
+    private javax.swing.JCheckBox q_20_3;
+    private javax.swing.JCheckBox q_20_4;
+    private javax.swing.JLabel q_21;
+    private javax.swing.JCheckBox q_21_1;
+    private javax.swing.JCheckBox q_21_2;
+    private javax.swing.JCheckBox q_21_3;
+    private javax.swing.JCheckBox q_21_4;
     private javax.swing.JCheckBox q_2_o_1;
     private javax.swing.JCheckBox q_2_o_2;
     private javax.swing.JCheckBox q_2_o_4;
