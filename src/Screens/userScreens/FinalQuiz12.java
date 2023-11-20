@@ -5,29 +5,355 @@
 package Screens.userScreens;
 
 import javax.swing.JOptionPane;
-
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import javax.swing.JOptionPane;
 /**
  *
  * @author user
  */
-public class FinalQuiz extends javax.swing.JFrame {
+public class FinalQuiz12 extends javax.swing.JFrame {
     String it=null;
     String sci=null;
     String gk=null;
     String math=null;
     String nq=null;
-    
+    Connection conn=null;
+    ResultSet rs1=null;
+    ResultSet rs2=null;
+    ResultSet rs3=null;
+    ResultSet rs4=null;
     /**
      * Creates new form FinalQuiz
      */
     
-    public FinalQuiz(String itc, String scic, String gkc, String mathc, String nqc) {
+    public FinalQuiz12(String itc, String scic, String gkc, String mathc, String nqc) {
         initComponents();
+        it=itc;
+        gk=gkc;
+        math=mathc;
+        sci=scic;
+        nq=nqc;
+        
         System.out.print(itc);
         System.out.print(gkc);
         System.out.print(scic);
         System.out.print(mathc);
         System.out.print(nqc);
+        try{
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/netbeans?serverTimezone=UTC","root","");
+            //itc,scic,gkc,mathc,nqc
+            int a=0,b=0,c=0;
+            if(it!=null){
+                if(sci!=null){
+                    if(gk!=null){
+                        PreparedStatement stm1= conn.prepareStatement("SELECT * FROM quiz WHERE category = 'ict' LIMIT 4;");
+                        rs1=stm1.executeQuery();
+                        PreparedStatement stm2= conn.prepareStatement("SELECT * FROM quiz WHERE category = 'science' LIMIT 4;");
+                        rs2=stm2.executeQuery();
+                        PreparedStatement stm3= conn.prepareStatement("SELECT * FROM quiz WHERE category = 'general' LIMIT 4;");
+                        rs3=stm3.executeQuery();
+                        a=4;b=4;c=4;
+                    }else{
+                        PreparedStatement stm1= conn.prepareStatement("SELECT * FROM quiz WHERE category = 'ict' LIMIT 6;");
+                        rs1=stm1.executeQuery();
+                        PreparedStatement stm2= conn.prepareStatement("SELECT * FROM quiz WHERE category = 'science' LIMIT 6;");
+                        rs2=stm2.executeQuery();
+                        a=6;b=6;
+                    }
+                }else{
+                    if(gk!=null){
+                        PreparedStatement stm1= conn.prepareStatement("SELECT * FROM quiz WHERE category = 'general' LIMIT 6;");
+                        rs1=stm1.executeQuery();
+                        PreparedStatement stm2= conn.prepareStatement("SELECT * FROM quiz WHERE category = 'ict' LIMIT 6;");
+                        rs2=stm2.executeQuery();
+                        a=6;b=6;
+                    }else{
+                        PreparedStatement stm1= conn.prepareStatement("SELECT * FROM quiz WHERE category = 'ict' LIMIT 12;");
+                        rs1=stm1.executeQuery();
+                        a=12;
+                        
+                    }
+                }
+            }else{
+                if(sci!=null){
+                    if(gk!=null){
+                        PreparedStatement stm1= conn.prepareStatement("SELECT * FROM quiz WHERE category = 'general' LIMIT 6;");
+                        rs1=stm1.executeQuery();
+                        PreparedStatement stm2= conn.prepareStatement("SELECT * FROM quiz WHERE category = 'science' LIMIT 6;");
+                        rs2=stm2.executeQuery();
+                        a=6;b=6;
+                    }else{
+                        PreparedStatement stm1= conn.prepareStatement("SELECT * FROM quiz WHERE category = 'science' LIMIT 12;");
+                        rs1=stm1.executeQuery();
+                        a=12;
+                        
+                    }
+                }else{
+                    if(gk!=null){
+                        PreparedStatement stm1= conn.prepareStatement("SELECT * FROM quiz WHERE category = 'general' LIMIT 12;");
+                        rs1=stm1.executeQuery();
+                        a=12;
+                        
+                    }else{
+                        
+                        
+                        
+                    }
+                }
+            }
+            int tot=0;
+            for(int i=0;i<a;i++){
+                if(rs1.next()){
+                    if(tot==0){
+                        q_10.setText(rs1.getString("question"));
+                        q_10_1.setText(rs1.getString("option1"));
+                        q_10_2.setText(rs1.getString("option2"));
+                        q_10_3.setText(rs1.getString("option3"));
+                        q_10_4.setText(rs1.getString("option4"));
+                    }if(tot==1){
+                        q_11.setText(rs1.getString("question"));
+                        q_11_1.setText(rs1.getString("option1"));
+                        q_11_2.setText(rs1.getString("option2"));
+                        q_11_3.setText(rs1.getString("option3"));
+                        q_11_4.setText(rs1.getString("option4"));
+                    }if(tot==2){
+                        q_12.setText(rs1.getString("question"));
+                        q_12_1.setText(rs1.getString("option1"));
+                        q_12_2.setText(rs1.getString("option2"));
+                        q_12_3.setText(rs1.getString("option3"));
+                        q_12_4.setText(rs1.getString("option4"));
+                    }if(tot==3){
+                        q_13.setText(rs1.getString("question"));
+                        q_13_1.setText(rs1.getString("option1"));
+                        q_13_2.setText(rs1.getString("option2"));
+                        q_13_3.setText(rs1.getString("option3"));
+                        q_13_4.setText(rs1.getString("option4"));
+                    }if(tot==4){
+                        q_14.setText(rs1.getString("question"));
+                        q_14_1.setText(rs1.getString("option1"));
+                        q_14_2.setText(rs1.getString("option2"));
+                        q_14_3.setText(rs1.getString("option3"));
+                        q_14_4.setText(rs1.getString("option4"));
+                    }if(tot==5){
+                        q_15.setText(rs1.getString("question"));
+                        q_15_1.setText(rs1.getString("option1"));
+                        q_15_2.setText(rs1.getString("option2"));
+                        q_15_3.setText(rs1.getString("option3"));
+                        q_15_4.setText(rs1.getString("option4"));
+                    }if(tot==6){
+                        q_16.setText(rs1.getString("question"));
+                        q_16_1.setText(rs1.getString("option1"));
+                        q_16_2.setText(rs1.getString("option2"));
+                        q_16_3.setText(rs1.getString("option3"));
+                        q_16_4.setText(rs1.getString("option4"));
+                    }if(tot==7){
+                        q_17.setText(rs1.getString("question"));
+                        q_17_1.setText(rs1.getString("option1"));
+                        q_17_2.setText(rs1.getString("option2"));
+                        q_17_3.setText(rs1.getString("option3"));
+                        q_17_4.setText(rs1.getString("option4"));
+                    }if(tot==8){
+                        q_18.setText(rs1.getString("question"));
+                        q_18_1.setText(rs1.getString("option1"));
+                        q_18_2.setText(rs1.getString("option2"));
+                        q_18_3.setText(rs1.getString("option3"));
+                        q_18_4.setText(rs1.getString("option4"));
+                    }if(tot==9){
+                        q_19.setText(rs1.getString("question"));
+                        q_19_1.setText(rs1.getString("option1"));
+                        q_19_2.setText(rs1.getString("option2"));
+                        q_19_3.setText(rs1.getString("option3"));
+                        q_19_4.setText(rs1.getString("option4"));
+                    }if(tot==10){
+                        q_20.setText(rs1.getString("question"));
+                        q_20_1.setText(rs1.getString("option1"));
+                        q_20_2.setText(rs1.getString("option2"));
+                        q_20_3.setText(rs1.getString("option3"));
+                        q_20_4.setText(rs1.getString("option4"));
+                    }if(tot==11){
+                        q_21.setText(rs1.getString("question"));
+                        q_21_1.setText(rs1.getString("option1"));
+                        q_21_2.setText(rs1.getString("option2"));
+                        q_21_3.setText(rs1.getString("option3"));
+                        q_21_4.setText(rs1.getString("option4"));
+                    }
+                    tot++;
+                }
+            }
+            for(int i=0;i<b;i++){
+                if(rs2.next()){
+                    if(tot==0){
+                        q_10.setText(rs2.getString("question"));
+                        q_10_1.setText(rs2.getString("option1"));
+                        q_10_2.setText(rs2.getString("option2"));
+                        q_10_3.setText(rs2.getString("option3"));
+                        q_10_4.setText(rs2.getString("option4"));
+                    }if(tot==1){
+                        q_11.setText(rs2.getString("question"));
+                        q_11_1.setText(rs2.getString("option1"));
+                        q_11_2.setText(rs2.getString("option2"));
+                        q_11_3.setText(rs2.getString("option3"));
+                        q_11_4.setText(rs2.getString("option4"));
+                    }if(tot==2){
+                        q_12.setText(rs2.getString("question"));
+                        q_12_1.setText(rs2.getString("option1"));
+                        q_12_2.setText(rs2.getString("option2"));
+                        q_12_3.setText(rs2.getString("option3"));
+                        q_12_4.setText(rs2.getString("option4"));
+                    }if(tot==3){
+                        q_13.setText(rs2.getString("question"));
+                        q_13_1.setText(rs2.getString("option1"));
+                        q_13_2.setText(rs2.getString("option2"));
+                        q_13_3.setText(rs2.getString("option3"));
+                        q_13_4.setText(rs2.getString("option4"));
+                    }if(tot==4){
+                        q_14.setText(rs2.getString("question"));
+                        q_14_1.setText(rs2.getString("option1"));
+                        q_14_2.setText(rs2.getString("option2"));
+                        q_14_3.setText(rs2.getString("option3"));
+                        q_14_4.setText(rs2.getString("option4"));
+                    }if(tot==5){
+                        q_15.setText(rs2.getString("question"));
+                        q_15_1.setText(rs2.getString("option1"));
+                        q_15_2.setText(rs2.getString("option2"));
+                        q_15_3.setText(rs2.getString("option3"));
+                        q_15_4.setText(rs2.getString("option4"));
+                    }if(tot==6){
+                        q_16.setText(rs2.getString("question"));
+                        q_16_1.setText(rs2.getString("option1"));
+                        q_16_2.setText(rs2.getString("option2"));
+                        q_16_3.setText(rs2.getString("option3"));
+                        q_16_4.setText(rs2.getString("option4"));
+                    }if(tot==7){
+                        q_17.setText(rs2.getString("question"));
+                        q_17_1.setText(rs2.getString("option1"));
+                        q_17_2.setText(rs2.getString("option2"));
+                        q_17_3.setText(rs2.getString("option3"));
+                        q_17_4.setText(rs2.getString("option4"));
+                    }if(tot==8){
+                        q_18.setText(rs2.getString("question"));
+                        q_18_1.setText(rs2.getString("option1"));
+                        q_18_2.setText(rs2.getString("option2"));
+                        q_18_3.setText(rs2.getString("option3"));
+                        q_18_4.setText(rs2.getString("option4"));
+                    }if(tot==9){
+                        q_19.setText(rs2.getString("question"));
+                        q_19_1.setText(rs2.getString("option1"));
+                        q_19_2.setText(rs2.getString("option2"));
+                        q_19_3.setText(rs2.getString("option3"));
+                        q_19_4.setText(rs2.getString("option4"));
+                    }if(tot==10){
+                        q_20.setText(rs2.getString("question"));
+                        q_20_1.setText(rs2.getString("option1"));
+                        q_20_2.setText(rs2.getString("option2"));
+                        q_20_3.setText(rs2.getString("option3"));
+                        q_20_4.setText(rs2.getString("option4"));
+                    }if(tot==11){
+                        q_21.setText(rs2.getString("question"));
+                        q_21_1.setText(rs2.getString("option1"));
+                        q_21_2.setText(rs2.getString("option2"));
+                        q_21_3.setText(rs2.getString("option3"));
+                        q_21_4.setText(rs2.getString("option4"));
+                    }
+                    tot++;
+                }
+            }
+            for(int i=0;i<c;i++){
+                if(rs3.next()){
+                    if(tot==0){
+                        q_10.setText(rs3.getString("question"));
+                        q_10_1.setText(rs3.getString("option1"));
+                        q_10_2.setText(rs3.getString("option2"));
+                        q_10_3.setText(rs3.getString("option3"));
+                        q_10_4.setText(rs3.getString("option4"));
+                    }if(tot==1){
+                        q_11.setText(rs3.getString("question"));
+                        q_11_1.setText(rs3.getString("option1"));
+                        q_11_2.setText(rs3.getString("option2"));
+                        q_11_3.setText(rs3.getString("option3"));
+                        q_11_4.setText(rs3.getString("option4"));
+                    }if(tot==2){
+                        q_12.setText(rs3.getString("question"));
+                        q_12_1.setText(rs3.getString("option1"));
+                        q_12_2.setText(rs3.getString("option2"));
+                        q_12_3.setText(rs3.getString("option3"));
+                        q_12_4.setText(rs3.getString("option4"));
+                    }if(tot==3){
+                        q_13.setText(rs3.getString("question"));
+                        q_13_1.setText(rs3.getString("option1"));
+                        q_13_2.setText(rs3.getString("option2"));
+                        q_13_3.setText(rs3.getString("option3"));
+                        q_13_4.setText(rs3.getString("option4"));
+                    }if(tot==4){
+                        q_14.setText(rs3.getString("question"));
+                        q_14_1.setText(rs3.getString("option1"));
+                        q_14_2.setText(rs3.getString("option2"));
+                        q_14_3.setText(rs3.getString("option3"));
+                        q_14_4.setText(rs3.getString("option4"));
+                    }if(tot==5){
+                        q_15.setText(rs3.getString("question"));
+                        q_15_1.setText(rs3.getString("option1"));
+                        q_15_2.setText(rs3.getString("option2"));
+                        q_15_3.setText(rs3.getString("option3"));
+                        q_15_4.setText(rs3.getString("option4"));
+                    }if(tot==6){
+                        q_16.setText(rs3.getString("question"));
+                        q_16_1.setText(rs3.getString("option1"));
+                        q_16_2.setText(rs3.getString("option2"));
+                        q_16_3.setText(rs3.getString("option3"));
+                        q_16_4.setText(rs3.getString("option4"));
+                    }if(tot==7){
+                        q_17.setText(rs3.getString("question"));
+                        q_17_1.setText(rs3.getString("option1"));
+                        q_17_2.setText(rs3.getString("option2"));
+                        q_17_3.setText(rs3.getString("option3"));
+                        q_17_4.setText(rs3.getString("option4"));
+                    }if(tot==8){
+                        q_18.setText(rs3.getString("question"));
+                        q_18_1.setText(rs3.getString("option1"));
+                        q_18_2.setText(rs3.getString("option2"));
+                        q_18_3.setText(rs3.getString("option3"));
+                        q_18_4.setText(rs3.getString("option4"));
+                    }if(tot==9){
+                        q_19.setText(rs3.getString("question"));
+                        q_19_1.setText(rs3.getString("option1"));
+                        q_19_2.setText(rs3.getString("option2"));
+                        q_19_3.setText(rs3.getString("option3"));
+                        q_19_4.setText(rs3.getString("option4"));
+                    }if(tot==10){
+                        q_20.setText(rs3.getString("question"));
+                        q_20_1.setText(rs3.getString("option1"));
+                        q_20_2.setText(rs3.getString("option2"));
+                        q_20_3.setText(rs3.getString("option3"));
+                        q_20_4.setText(rs3.getString("option4"));
+                    }if(tot==11){
+                        q_21.setText(rs3.getString("question"));
+                        q_21_1.setText(rs3.getString("option1"));
+                        q_21_2.setText(rs3.getString("option2"));
+                        q_21_3.setText(rs3.getString("option3"));
+                        q_21_4.setText(rs3.getString("option4"));
+                    }
+                    tot++;
+                }
+            }
+            
+            System.out.println(a);
+            System.out.println(b);
+            System.out.println(c);
+            
+            
+            
+            
+            
+            
+            
+        }catch(Exception e){
+            System.out.println(e);
+        }
     }
 
     /**
@@ -634,6 +960,7 @@ public class FinalQuiz extends javax.swing.JFrame {
 
     private void q_2_o_2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_q_2_o_2ActionPerformed
         // TODO add your handling code here:
+        if(sci==null)
     }//GEN-LAST:event_q_2_o_2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
@@ -650,6 +977,8 @@ public class FinalQuiz extends javax.swing.JFrame {
 
     private void submit_bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_submit_bActionPerformed
         // TODO add your handling code here:
+        
+        
     }//GEN-LAST:event_submit_bActionPerformed
 
     /**
@@ -669,20 +998,21 @@ public class FinalQuiz extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(FinalQuiz.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FinalQuiz12.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(FinalQuiz.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FinalQuiz12.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(FinalQuiz.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FinalQuiz12.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(FinalQuiz.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FinalQuiz12.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new FinalQuiz(null,null,null,null,null).setVisible(true);
+                new FinalQuiz12(null,null,null,null,null).setVisible(true);
             }
         });
     }

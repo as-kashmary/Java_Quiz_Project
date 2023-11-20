@@ -303,7 +303,7 @@ public class LoginPageUser extends javax.swing.JFrame {
 
     private void jLabel16MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel16MouseClicked
         // TODO add your handling code here:
-        SignUpPage pg =  new SignUpPage();
+        SignUpPage_user pg =  new SignUpPage_user();
         pg.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_jLabel16MouseClicked
