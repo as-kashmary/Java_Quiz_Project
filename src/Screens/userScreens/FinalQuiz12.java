@@ -5,29 +5,50 @@
 package Screens.userScreens;
 
 import javax.swing.JOptionPane;
-
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import javax.swing.JOptionPane;
 /**
  *
  * @author user
  */
-public class FinalQuiz extends javax.swing.JFrame {
+public class FinalQuiz12 extends javax.swing.JFrame {
     String it=null;
     String sci=null;
     String gk=null;
     String math=null;
     String nq=null;
-    
+    Connection conn=null;
+    ResultSet rs1=null;
+    ResultSet rs2=null;
+    ResultSet rs3=null;
+    ResultSet rs4=null;
     /**
      * Creates new form FinalQuiz
      */
     
-    public FinalQuiz(String itc, String scic, String gkc, String mathc, String nqc) {
+    public FinalQuiz12(String itc, String scic, String gkc, String mathc, String nqc) {
         initComponents();
+        it=itc;
+        gk=gkc;
+        math=mathc;
+        sci=scic;
+        nq=nqc;
+        
         System.out.print(itc);
         System.out.print(gkc);
         System.out.print(scic);
         System.out.print(mathc);
         System.out.print(nqc);
+        try{
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/netbeans?serverTimezone=UTC","root","");
+            
+        }catch(Exception e){
+            System.out.println(e);
+        }
     }
 
     /**
@@ -634,6 +655,7 @@ public class FinalQuiz extends javax.swing.JFrame {
 
     private void q_2_o_2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_q_2_o_2ActionPerformed
         // TODO add your handling code here:
+        if(sci==null)
     }//GEN-LAST:event_q_2_o_2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
@@ -650,6 +672,108 @@ public class FinalQuiz extends javax.swing.JFrame {
 
     private void submit_bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_submit_bActionPerformed
         // TODO add your handling code here:
+        int a=0,b=0,c=0;
+        try{
+            //itc,scic,gkc,mathc,nqc
+            if(it!=null){
+                if(sci!=null){
+                    if(gk!=null){
+                        PreparedStatement stm1= conn.prepareStatement("SELECT * FROM quiz WHERE category = 'ict' LIMIT 4;");
+                        rs1=stm1.executeQuery();
+                        PreparedStatement stm2= conn.prepareStatement("SELECT * FROM quiz WHERE category = 'science' LIMIT 4;");
+                        rs2=stm2.executeQuery();
+                        PreparedStatement stm3= conn.prepareStatement("SELECT * FROM quiz WHERE category = 'general' LIMIT 4;");
+                        rs3=stm3.executeQuery();
+                        a=4;b=4;c=4;
+                    }else{
+                        PreparedStatement stm1= conn.prepareStatement("SELECT * FROM quiz WHERE category = 'ict' LIMIT 6;");
+                        rs1=stm1.executeQuery();
+                        PreparedStatement stm2= conn.prepareStatement("SELECT * FROM quiz WHERE category = 'science' LIMIT 6;");
+                        rs2=stm2.executeQuery();
+                        a=6;b=6;
+                    }
+                }else{
+                    if(gk!=null){
+                        PreparedStatement stm1= conn.prepareStatement("SELECT * FROM quiz WHERE category = 'general' LIMIT 6;");
+                        rs1=stm1.executeQuery();
+                        PreparedStatement stm2= conn.prepareStatement("SELECT * FROM quiz WHERE category = 'ict' LIMIT 6;");
+                        rs2=stm2.executeQuery();
+                        a=6;b=6;
+                    }else{
+                        PreparedStatement stm1= conn.prepareStatement("SELECT * FROM quiz WHERE category = 'ict' LIMIT 12;");
+                        rs1=stm1.executeQuery();
+                        a=12;
+                        
+                    }
+                }
+            }else{
+                if(sci!=null){
+                    if(gk!=null){
+                        PreparedStatement stm1= conn.prepareStatement("SELECT * FROM quiz WHERE category = 'general' LIMIT 6;");
+                        rs1=stm1.executeQuery();
+                        PreparedStatement stm2= conn.prepareStatement("SELECT * FROM quiz WHERE category = 'science' LIMIT 6;");
+                        rs2=stm2.executeQuery();
+                        a=6;b=6;
+                    }else{
+                        PreparedStatement stm1= conn.prepareStatement("SELECT * FROM quiz WHERE category = 'science' LIMIT 12;");
+                        rs1=stm1.executeQuery();
+                        a=12;
+                        
+                    }
+                }else{
+                    if(gk!=null){
+                        PreparedStatement stm1= conn.prepareStatement("SELECT * FROM quiz WHERE category = 'general' LIMIT 12;");
+                        rs1=stm1.executeQuery();
+                        a=12;
+                        
+                    }else{
+                        
+                        
+                        
+                    }
+                }
+            }
+            while(a>0){
+                a--;
+                if(rs1.next()){
+                
+                    String q=rs1.getString("question");
+
+                    System.out.println(q);
+                    
+                }
+            }
+            while(b>0){
+                b--;
+                if(rs2.next()){
+                
+                    String q=rs2.getString("question");
+
+                    System.out.println(q);
+                    
+                }
+            }while(c>0){
+                c--;
+                if(rs3.next()){
+                
+                    String q=rs3.getString("question");
+
+                    System.out.println(q);
+                    
+                }
+            }
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        }catch(Exception e){
+            System.out.println(e.getMessage());
+        }
     }//GEN-LAST:event_submit_bActionPerformed
 
     /**
@@ -669,20 +793,21 @@ public class FinalQuiz extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(FinalQuiz.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FinalQuiz12.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(FinalQuiz.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FinalQuiz12.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(FinalQuiz.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FinalQuiz12.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(FinalQuiz.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FinalQuiz12.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new FinalQuiz(null,null,null,null,null).setVisible(true);
+                new FinalQuiz12(null,null,null,null,null).setVisible(true);
             }
         });
     }

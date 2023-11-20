@@ -26,6 +26,13 @@ public class SignUpPage_user extends javax.swing.JFrame {
     
     public SignUpPage_user() {
         initComponents();
+        try{
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/netbeans?serverTimezone=UTC","root","");
+            
+        }catch(Exception e){
+            System.out.println(e);
+        }
     }
      
     //Function...................
@@ -49,7 +56,7 @@ public class SignUpPage_user extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
-        submit = new javax.swing.JToggleButton();
+        submit_b = new javax.swing.JToggleButton();
         jLabel15 = new javax.swing.JLabel();
         jLabel16 = new javax.swing.JLabel();
         u_r = new javax.swing.JTextField();
@@ -90,11 +97,11 @@ public class SignUpPage_user extends javax.swing.JFrame {
         jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("Password");
 
-        submit.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        submit.setText("Submit");
-        submit.addActionListener(new java.awt.event.ActionListener() {
+        submit_b.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        submit_b.setText("Submit");
+        submit_b.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                submitActionPerformed(evt);
+                submit_bActionPerformed(evt);
             }
         });
 
@@ -209,7 +216,7 @@ public class SignUpPage_user extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addGap(0, 155, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(submit, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(submit_b, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jCheckBox2, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(362, 362, 362))
         );
@@ -250,7 +257,7 @@ public class SignUpPage_user extends javax.swing.JFrame {
                     .addComponent(jCheckBox2)
                     .addComponent(jCheckBox3))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 44, Short.MAX_VALUE)
-                .addComponent(submit)
+                .addComponent(submit_b)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -280,20 +287,24 @@ public class SignUpPage_user extends javax.swing.JFrame {
         
     }//GEN-LAST:event_jLabel15MouseClicked
 
-    private void submitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_submitActionPerformed
+    private void submit_bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_submit_bActionPerformed
         // TODO add your handling code here:
          try{
-            String username=u_r.getText();
+            String user=u_r.getText();
             String email=mail.getText();
             String password=p_r.getText();
             Statement stm= conn.createStatement();
-            String sql="INSERT INTO `register`( `username`, `email`, `password`) VALUES ("+username+","+email+","+password+");";
+            String sql="INSERT INTO register( `username`, `email`, `password`) VALUES ('"+user+"','"+email+"','"+password+"');";
             stm.executeUpdate(sql);
             conn.close();
+            setVisible(false);
+            new Screens.userScreens.LoginPageUser().setVisible(true);
+            
+            
         }catch(Exception e){
-        
+            System.out.println(e.getMessage());
         }
-    }//GEN-LAST:event_submitActionPerformed
+    }//GEN-LAST:event_submit_bActionPerformed
 
     private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
         // TODO add your handling code here:
@@ -377,7 +388,7 @@ public class SignUpPage_user extends javax.swing.JFrame {
     private javax.swing.JSpinner jSpinner1;
     private javax.swing.JTextField mail;
     private javax.swing.JPasswordField p_r;
-    private javax.swing.JToggleButton submit;
+    private javax.swing.JToggleButton submit_b;
     private javax.swing.JTextField u_r;
     // End of variables declaration//GEN-END:variables
 }

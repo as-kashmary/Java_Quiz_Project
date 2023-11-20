@@ -193,29 +193,31 @@ public class QuizSelection extends javax.swing.JFrame {
     private void Start_ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Start_ButtonActionPerformed
         // TODO add your handling code here:
         String it,sci, gk, math, nq;
-        it="not selected ";
-        sci="not selected "; 
-        gk="not selected "; 
-        math="not selected ";  
-        nq="not selected ";
+        it=null;
+        sci=null;
+        gk=null;
+        math=null;
+        nq=null;
         if (IT_c.isSelected()) {
-            it="IT is selected ";
+            it="ict";
 
         }if (sci_c.isSelected()) {
-            sci="SCIENCE is selected ";
+            sci="science";
         }
         if (gk_c.isSelected()) {
-            gk="GK is selected ";
+            gk="general";
 
         }if (m_c.isSelected()) {
-            math="MATH is selected ";
+            math="math";
 
         }
-         nq = (String) no_q.getSelectedItem();
-        FinalQuiz frmtwo=new FinalQuiz(it,sci,gk,math,nq);
+        nq = (String) no_q.getSelectedItem();
+        if(nq=="12"){
+            FinalQuiz12 frmtwo=new FinalQuiz12(it,sci,gk,math,nq);
+            setVisible(false);
+            frmtwo.show();
+        }
         
-        setVisible(false);
-        frmtwo.show();
 
     }//GEN-LAST:event_Start_ButtonActionPerformed
 
