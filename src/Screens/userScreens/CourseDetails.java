@@ -29,6 +29,7 @@ public class CourseDetails extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
+        jButton2 = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
@@ -45,6 +46,9 @@ public class CourseDetails extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 50, -1));
+
+        jButton2.setText("Course Info");
+        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 530, -1, -1));
 
         jButton1.setBackground(new java.awt.Color(255, 153, 153));
         jButton1.setText("Join Now");
@@ -128,6 +132,7 @@ public class CourseDetails extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
