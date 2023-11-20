@@ -60,6 +60,11 @@ public class SearchCourse extends javax.swing.JFrame {
         jPanel2.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 310, -1, -1));
 
         jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Desktop - 1 (1).jpg"))); // NOI18N
+        jLabel13.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel13MouseClicked(evt);
+            }
+        });
         jPanel2.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 40, 240, 310));
 
         jPanel4.setBackground(new java.awt.Color(102, 102, 102));
@@ -232,6 +237,12 @@ public class SearchCourse extends javax.swing.JFrame {
          setVisible(false);
         new Screens.userScreens.allCourses().setVisible(true);
     }//GEN-LAST:event_jButton1MouseClicked
+
+    private void jLabel13MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel13MouseClicked
+        // TODO add your handling code here:
+         setVisible(false);
+        new Screens.userScreens.CourseDetails().setVisible(true);
+    }//GEN-LAST:event_jLabel13MouseClicked
 
     /**
      * @param args the command line arguments

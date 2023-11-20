@@ -131,6 +131,12 @@ public class UserPage extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
+        jPanel8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jPanel8MouseClicked(evt);
+            }
+        });
+
         jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/image 14.png"))); // NOI18N
         jLabel16.setText("jLabel2");
 
@@ -157,6 +163,12 @@ public class UserPage extends javax.swing.JFrame {
                     .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap())
         );
+
+        jPanel9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jPanel9MouseClicked(evt);
+            }
+        });
 
         jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/image 13.png"))); // NOI18N
         jLabel18.setText("jLabel2");
@@ -410,6 +422,18 @@ public class UserPage extends javax.swing.JFrame {
          setVisible(false);
         new Screens.userScreens.MyCourses().setVisible(true);
     }//GEN-LAST:event_jPanel7MouseClicked
+
+    private void jPanel9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel9MouseClicked
+        // TODO add your handling code here:
+         setVisible(false);
+        new Screens.userScreens.LeaderBoardPage().setVisible(true);
+    }//GEN-LAST:event_jPanel9MouseClicked
+
+    private void jPanel8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel8MouseClicked
+
+        setVisible(false);
+        new Screens.userScreens.NewIndexPage().setVisible(true);        // TODO add your handling code here:
+    }//GEN-LAST:event_jPanel8MouseClicked
 
     /**
      * @param args the command line arguments

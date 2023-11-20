@@ -128,6 +128,11 @@ public class allCourses extends javax.swing.JFrame {
         jPanel2.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 40, 240, 310));
 
         jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Desktop - 1 (2).jpg"))); // NOI18N
+        jLabel14.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel14MouseClicked(evt);
+            }
+        });
         jPanel2.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 20, 240, 310));
 
         jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Desktop - 1 (2).jpg"))); // NOI18N
@@ -137,6 +142,11 @@ public class allCourses extends javax.swing.JFrame {
         jPanel2.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 690, -1, -1));
 
         jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Desktop - 1 (1).png"))); // NOI18N
+        jLabel17.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel17MouseClicked(evt);
+            }
+        });
         jPanel2.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 380, -1, -1));
 
         jPanel4.setBackground(new java.awt.Color(102, 102, 102));
@@ -197,6 +207,11 @@ public class allCourses extends javax.swing.JFrame {
         jPanel2.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 610, -1, 20));
 
         jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Desktop - 1 (3).jpg"))); // NOI18N
+        jLabel19.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel19MouseClicked(evt);
+            }
+        });
         jPanel2.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 310, 240, 310));
 
         jButton10.setBackground(new java.awt.Color(255, 102, 153));
@@ -377,6 +392,24 @@ public class allCourses extends javax.swing.JFrame {
         setVisible(false);
         new Screens.userScreens.SearchCourse().setVisible(true);
     }//GEN-LAST:event_jToggleButton1MouseClicked
+
+    private void jLabel14MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel14MouseClicked
+        // TODO add your handling code here:
+         setVisible(false);
+        new Screens.userScreens.CourseDetails().setVisible(true);
+    }//GEN-LAST:event_jLabel14MouseClicked
+
+    private void jLabel17MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel17MouseClicked
+        // TODO add your handling code here:
+        setVisible(false);
+        new Screens.userScreens.CourseDetails().setVisible(true);
+    }//GEN-LAST:event_jLabel17MouseClicked
+
+    private void jLabel19MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel19MouseClicked
+        // TODO add your handling code here:
+        setVisible(false);
+        new Screens.userScreens.CourseDetails().setVisible(true);
+    }//GEN-LAST:event_jLabel19MouseClicked
 
     /**
      * @param args the command line arguments
