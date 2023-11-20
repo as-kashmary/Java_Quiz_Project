@@ -4,6 +4,8 @@
  */
 package Screens.userScreens;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author rakib
@@ -62,6 +64,12 @@ public class PaymentDetails extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
+//         var response=JOptionPane.showConfirmDialog(this, "Do you want to Quit?","Confirm", JOptionPane.YES_NO_OPTION,JOptionPane.QUESTION_MESSAGE);
+//       if(response==JOptionPane.YES_OPTION){
+//           QuizSelection frmtwo=new QuizSelection();
+//        setVisible(false);
+//        frmtwo.show();
+//       }
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jLabel2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel2MouseClicked
